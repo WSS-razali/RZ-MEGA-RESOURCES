@@ -93,7 +93,7 @@ export function NotesSection() {
             as="p"
             className="text-4xl md:text-5xl font-bold text-gray-900 max-w-3xl leading-tight"
           >
-            What we're building, exploring, and learning. Occasional updates from the studio.
+            What we&apos;re building, exploring, and learning. Occasional updates from the studio.
           </TextReveal>
         </div>
 

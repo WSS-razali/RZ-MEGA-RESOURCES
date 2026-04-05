@@ -86,6 +86,7 @@ export function HeroSection() {
                 <div className="relative z-10 w-full">
                   {brand.logo ? (
                     <div className="h-24 w-full mb-6 -mt-8">
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img 
                         src={brand.logo} 
                         alt={brand.name} 
