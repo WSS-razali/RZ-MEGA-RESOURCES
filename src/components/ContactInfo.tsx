@@ -1,6 +1,7 @@
 "use client";
 
-import { Mail, MapPin, Phone, Clock, Instagram, Linkedin, Facebook, Youtube } from "lucide-react";
+import { Mail, MapPin, Phone, Clock } from "lucide-react";
+import { FaInstagram, FaLinkedinIn, FaFacebookF, FaYoutube } from "react-icons/fa";
 import Link from "next/link";
 import { ScrollReveal } from "@/components/animations/ScrollReveal";
 
@@ -87,7 +88,7 @@ export function ContactInfo() {
         <div>
           <h4 className="font-bold text-lg mb-4">Follow our social media</h4>
           <div className="flex gap-4">
-            {[Facebook, Instagram, Linkedin, Youtube].map((Icon, i) => (
+            {[FaFacebookF, FaInstagram, FaLinkedinIn, FaYoutube].map((Icon, i) => (
               <Link
                 key={i}
                 href="#"
